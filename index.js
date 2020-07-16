@@ -152,7 +152,7 @@ window.addEventListener('load', function() {
 			return false;
 		}
 
-		if (!char.match(/[a-z]/i))
+		if (!char.match(/[а-я]/i))
 			return $debug.innerHTML = 'Incorrect key: ' + char;
 
 		var $e = $word.querySelector(':not([correct])');
